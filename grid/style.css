@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 14px;
+  gap: 10px;
+}
+
+.item {
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.item:nth-child(odd) {
+  background-color: blanchedalmond;
+}
